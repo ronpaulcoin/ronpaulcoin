@@ -15,7 +15,7 @@ RonPaulCoin is a more rare version of Bitcoin using scrypt as a proof-of-work al
  - subsidy halves in 1051k blocks (~4 years)
  - ~2.1 million total coins
  - 1 coin per block
- - 48 blocks to difficulty retarget. 11% maximum change per retarget
+ - Difficulty retarget every block using Kimoto Gravity Well +Time Warp fix
 
 For more information, as well as an immediately useable, binary version of
 the RonPaulCoin client sofware, see http://www.ronpaulcoin.org.
