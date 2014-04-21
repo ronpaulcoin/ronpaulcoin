@@ -1174,7 +1174,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     int nHeight = pindexLast->nHeight + 1;
     
     // Gravity well after block
-    int nKGWDiffFork = 55000; //line to start fork with KGW+Time Warp fix
+    int nKGWDiffFork = 45000; //line to start fork with KGW+Time Warp fix
     if((nHeight > nKGWDiffFork) || (fTestNet && (nHeight > 250))) // set KGW+TW on testnet to start @ block 250
     {
          static const int64	BlocksTargetSpacing	= nTargetSpacing;
